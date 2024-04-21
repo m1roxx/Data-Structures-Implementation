@@ -2,12 +2,11 @@ public class TestMyArrayList {
     public static void main(String[] args) {
         MyArrayList<Integer> myList = new MyArrayList<>();
 
-        // Add elements
+        // Test add method
         myList.add(10);
         myList.add(20);
         myList.add(30);
 
-        // Print elements
         System.out.println("Elements in the list:");
         for (int i = 0; i < myList.size(); i++) {
             System.out.println(myList.get(i));
