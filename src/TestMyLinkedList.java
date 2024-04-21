@@ -2,12 +2,11 @@ public class TestMyLinkedList {
     public static void main(String[] args) {
         MyLinkedList<Integer> myList = new MyLinkedList<>();
 
-        // Add elements
+        // Test add method
         myList.add(30);
         myList.add(10);
         myList.add(20);
 
-        // Print elements
         System.out.println("Elements in the list:");
         for (int i = 0; i < myList.size(); i++) {
             System.out.println(myList.get(i));
